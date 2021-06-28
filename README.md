@@ -20,7 +20,7 @@ Original data was stored outside the repository to prevent accidental commits in
 │       └───synthetic_data # Where the synthetic data is stored, content is omitted due to potential privacy issues
 ├───Experiment2_DP # Differential Privacy experiments (Section 4.4.2)
 │       ├───PrivBayes # Contains both Exp 2. and Naive DP experiments
-│       └───synthetic_data # Where the synthetic data is stored, content is omitted due to potential privacy issues
+│       └───synthetic_data # Where the synthetic data is stored, content is omitted due to confidentiality
 ``` 
 
 * */notebooks*: directory where exploratory data analysis notebooks were stored. Content of this folder including its sub-directories is omitted due to confidentiality of the outputs. 
