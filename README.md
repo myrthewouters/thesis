@@ -12,7 +12,8 @@ Original data was stored outside the repository to prevent accidental commits in
 
 * */experiments*: contains code for conducting the experiments in the thesis. Directory is further divided into sub-directories (see tree structure below). */experiments/Experiment_NP/DoppelGANger* uses code from https://github.com/fjxmlzn/DoppelGANger. Each experiment folder */experiments/Experiment_NP* and */experiments/Experiment_DP* contains a quality evaluation notebook, with the quality evaluation results for that experiment. */experiments/Experiment_NP/QualityEvaluator_NP.ipynb* is the quality evaluation for the No Privacy (NP) experiments (Section 5.1), and */experiments/Experiment_NP/QualityEvaluator_PBS-DP-Exp2.ipynb* and */experiments/Experiment_NP/QualityEvaluator_PBS-DP-Naive.ipynb* are the quality evaluations for the Differentially Private (DP) experiments for PrivBayes for Exp. 2 and Naive respectively (Section 5.2). 
 
-``` bash 
+``` bash
+.
 ├───Experiment1_NP # NoPrivacy experiments (Section 4.4.1)
 │       ├───DoppelGANger # Method elaborated upon in Section 4.2.3 (method reference: Lin et al., 2020)
 │       ├───MarginalSynthesizer # Method elaboarated upon in Section 4.2.4
